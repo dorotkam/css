@@ -1,3 +1,24 @@
 * {
     color: red;
 }
+div.connected p {
+    color: green;
+}
+
+div.connected p::before {
+    content: 'jkjnndkall';
+    color: yellow;
+}
+.hover a{
+    color: green;
+    text-decoration:none;
+}
+form input:button{
+    border: 2px solid brown;
+    outline: 0;
+}
+ul li:first-child {
+    color:violet;
+
+
+}
