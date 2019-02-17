@@ -60,3 +60,99 @@ input [title^="pierw"] {
     width: 100%;
     background-color: #ffffff;
 }
+.parent {
+    font-size: 20px
+}
+.parent > div{
+    background-color: orange;
+}
+#em {
+    width: 4em;
+}
+
+#procent{
+    width: 25%;
+}
+#vh {
+    width: 20vh;
+}
+#main-nav ul li {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    background-color: red;
+}
+.float img{
+    float:left;
+}
+.clear{
+    clear: both;
+}.transitions-inner {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+   /* transition-property: width background-color;
+    transition-duration: 0.45s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s; */
+    transition: all 0.4s ease-in-out0.1s;
+}
+
+.transitions-inner:hover{
+width: 600px;
+background-color: blue;
+}
+.czerwony, .zielony, .niebieski{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    
+}
+.czerwony{
+    background-color: red;
+    transition-property: width;
+    transition-duration: 0.45s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+.czerwony:hover{
+    width: 300px;
+}
+.niebieski{
+    background-color: blue;
+    margin-top: 10px;
+    transition-property: height;
+    transition-duration: 0.45s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+    }
+.niebieski:hover{
+    height: 300px;
+ }
+.zielony{
+    background-color: green;
+    margin-top: 10px;
+    transition-property: heigth width;
+    transition-duration: 0.45s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+.zielony:hover{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.background{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/White_Anthurium_1.jpg/220px-White_Anthurium_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overflow{
+    width: 200px;
+    height: 300px;
+    border: 1px dotted #000;
+    overflow: auto;
+}

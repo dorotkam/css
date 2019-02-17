@@ -1,0 +1,18 @@
+@media all and (max-width: 1200px){
+
+}
+
+
+@media all and (max-width:7680px) {
+    .background {
+        height: 70vh;
+    }
+}
+
+
+
+@media all and (max-width:480px) {
+    .background {
+        height: 50vh;
+    }
+}

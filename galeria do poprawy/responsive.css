@@ -1,0 +1,22 @@
+@media all and (max-width: 992px){
+    .gallery { height: 80%;
+          }
+    .figure img {height:
+
+    }
+}
+
+
+@media all and (max-width:7680px) {
+    .gallery  {
+        height: 70vh;
+    }
+}
+
+
+
+@media all and (max-width:480px) {
+    .background {
+        height: 50vh;
+    }
+}
